@@ -37,5 +37,5 @@ public class Libro{
         libro1.mostrarInformacion();
         Libro libro2=new Libro(titulo2,autor2,anioPublicacion2);
         libro2.mostrarInformacion();
-    }//
+    } //
 }
