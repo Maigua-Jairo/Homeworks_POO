@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
 public class CuentaBancaria {
-    private String nombreTitutlar;
+    private final String nombreTitular;
     private double saldo;
 
     //Constructor con valores fijos
-    public CuentaBancaria(String nombreTitutlar, double saldo) {
-        this.nombreTitutlar=nombreTitutlar;
+    public CuentaBancaria(String nombreTitular, double saldo) {
+        this.nombreTitular=nombreTitular;
         this.saldo=saldo;
     }
 
     //Metodo de consulta de saldo
     public void MostrarInformacion(){
-        System.out.println("Sr. "+nombreTitutlar+" su saldo actual es: "+saldo);
+        System.out.println("Sr. "+nombreTitular+" su saldo actual es: "+saldo);
     }
     //Metodo para depositar dinero
     public void depositar(double monto){
